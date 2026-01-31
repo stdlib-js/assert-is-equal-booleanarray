@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEqualBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-booleanarray@esm/index.mjs';
+import isEqualBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-booleanarray@v0.1.0-esm/index.mjs';
 ```
 
 #### isEqualBooleanArray( v1, v2 )
@@ -84,7 +84,7 @@ bool = isEqualBooleanArray( x, [ true, false ] );
 <script type="module">
 
 import BooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-bool@esm/index.mjs';
-import isEqualBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-booleanarray@esm/index.mjs';
+import isEqualBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-booleanarray@v0.1.0-esm/index.mjs';
 
 var x = new BooleanArray( [ true, false, false, true ] );
 var y = new BooleanArray( [ true, false, false, true ] );
