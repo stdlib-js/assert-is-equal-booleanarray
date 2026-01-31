@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isEqualBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-booleanarray@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-equal-booleanarray/tags). For example,
+
+```javascript
 import isEqualBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-booleanarray@v0.1.0-esm/index.mjs';
 ```
 
@@ -84,7 +89,7 @@ bool = isEqualBooleanArray( x, [ true, false ] );
 <script type="module">
 
 import BooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-bool@esm/index.mjs';
-import isEqualBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-booleanarray@v0.1.0-esm/index.mjs';
+import isEqualBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-booleanarray@esm/index.mjs';
 
 var x = new BooleanArray( [ true, false, false, true ] );
 var y = new BooleanArray( [ true, false, false, true ] );
